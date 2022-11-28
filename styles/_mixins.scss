@@ -1,0 +1,13 @@
+@mixin animateCont($color,$delay){
+    background-color: $color;
+    animation-duration: 1.5s;
+    animation-delay: $delay;
+    animation-name: transf; 
+    animation-fill-mode: forwards;
+    @keyframes transf {
+    0%{transform:translateX(-90vw);}
+    100%{transform: translateX(0px);}
+
+}
+
+}

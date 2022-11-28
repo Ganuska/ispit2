@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+div {
+  border: 1px solid white;
+  display: inline-flex;
+  padding: 90px;
+  position: relative;
+  transform: translateX(-90vw);
+  border-radius: 10px;
+}
+div span {
+  position: absolute;
+  font-size: 6rem;
+  background-color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main {
+  background: url(https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_573%2Cw_1018&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+main section {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main section div:nth-child(1) {
+  background-color: rgba(255, 0, 0, 0.4);
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-name: transf;
+          animation-name: transf;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes transf {
+  0% {
+    transform: translateX(-90vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes transf {
+  0% {
+    transform: translateX(-90vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+main section div:nth-child(2) {
+  background-color: rgba(128, 128, 128, 0.4);
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+  -webkit-animation-name: transf;
+          animation-name: transf;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes transf {
+  0% {
+    transform: translateX(-90vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+main section div:nth-child(3) {
+  background-color: rgba(255, 255, 0, 0.4);
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  -webkit-animation-name: transf;
+          animation-name: transf;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@keyframes transf {
+  0% {
+    transform: translateX(-90vw);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}/*# sourceMappingURL=styles.css.map */
